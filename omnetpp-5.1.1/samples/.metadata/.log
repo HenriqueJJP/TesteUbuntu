@@ -1,0 +1,127 @@
+!SESSION 2018-03-24 04:17:28.968 -----------------------------------------------
+eclipse.buildId=5.1.1.170508-adbabd0
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.omnetpp.main 1 0 2018-03-24 04:18:34.916
+!MESSAGE OMNeT++ IDE 5.1.1.170508-adbabd0 started.
+!SESSION 2018-03-24 13:32:44.033 -----------------------------------------------
+eclipse.buildId=5.1.1.170508-adbabd0
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.omnetpp.main 1 0 2018-03-24 13:36:24.171
+!MESSAGE OMNeT++ IDE 5.1.1.170508-adbabd0 started.
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-03-24 13:46:49.816
+!MESSAGE Indexed 'veins_inet' (2 sources, 336 headers) in 186 sec: 27.751 declarations; 43.394 references; 7 unresolved inclusions; 1 syntax errors; 150 unresolved names (0,21%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-03-24 13:54:19.238
+!MESSAGE Indexed 'veins' (64 sources, 496 headers) in 449 sec: 41.178 declarations; 94.916 references; 7 unresolved inclusions; 1 syntax errors; 178 unresolved names (0,13%)
+!SESSION 2018-03-24 14:26:22.875 -----------------------------------------------
+eclipse.buildId=5.1.1.170508-adbabd0
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  IDE
+Command-line arguments:  -os linux -ws gtk -arch x86_64 IDE
+
+!ENTRY org.omnetpp.main 1 0 2018-03-24 14:27:06.143
+!MESSAGE OMNeT++ IDE 5.1.1.170508-adbabd0 started.
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-03-24 14:46:39.952
+!MESSAGE Error: org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to org.eclipse.cdt.internal.core.index.IWritableIndexFragment
+!STACK 0
+java.lang.ClassCastException: org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to org.eclipse.cdt.internal.core.index.IWritableIndexFragment
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:88)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1207)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:203)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:524)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:94)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-03-24 14:46:40.363
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to org.eclipse.cdt.internal.core.index.IWritableIndexFragment
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:88)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1207)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:203)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:524)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:94)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-03-24 14:46:44.268
+!MESSAGE Error: org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to org.eclipse.cdt.internal.core.index.IWritableIndexFragment
+!STACK 0
+java.lang.ClassCastException: org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to org.eclipse.cdt.internal.core.index.IWritableIndexFragment
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:88)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1207)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:203)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:524)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-03-24 14:46:44.276
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to org.eclipse.cdt.internal.core.index.IWritableIndexFragment
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:88)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1207)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:203)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:524)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-03-24 14:50:37.091
+!MESSAGE Indexed 'veins' (74 sources, 506 headers) in 231 sec: 44.133 declarations; 102.980 references; 7 unresolved inclusions; 1 syntax errors; 178 unresolved names (0,12%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-03-24 14:50:37.092
+!MESSAGE Error: org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to org.eclipse.cdt.internal.core.index.IWritableIndexFragment
+!STACK 0
+java.lang.ClassCastException: org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to org.eclipse.cdt.internal.core.index.IWritableIndexFragment
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:88)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1207)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:203)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:524)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-03-24 14:50:37.102
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to org.eclipse.cdt.internal.core.index.IWritableIndexFragment
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:88)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1207)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:203)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:524)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2018-03-24 15:00:24.560 -----------------------------------------------
+eclipse.buildId=5.1.1.170508-adbabd0
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  IDE
+Command-line arguments:  -os linux -ws gtk -arch x86_64 IDE
+
+!ENTRY org.omnetpp.main 1 0 2018-03-24 15:01:57.020
+!MESSAGE OMNeT++ IDE 5.1.1.170508-adbabd0 started.
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-03-24 15:07:58.080
+!MESSAGE Indexed 'veins_inet' (2 sources, 336 headers) in 101 sec: 27.751 declarations; 43.394 references; 7 unresolved inclusions; 1 syntax errors; 150 unresolved names (0,21%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-03-24 15:11:20.317
+!MESSAGE Indexed 'veins' (74 sources, 506 headers) in 202 sec: 44.133 declarations; 102.980 references; 7 unresolved inclusions; 1 syntax errors; 178 unresolved names (0,12%)

@@ -1,0 +1,8 @@
+15:12:20 **** Build of configuration gcc-debug for project veins ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/src'
+Creating shared library: ../out/gcc-debug/src/libveins.so
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/src'
+
+15:12:31 Build Finished (took 11s.204ms)
+

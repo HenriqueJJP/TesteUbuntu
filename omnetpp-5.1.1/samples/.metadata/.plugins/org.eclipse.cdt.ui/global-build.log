@@ -1,0 +1,181 @@
+13:44:34 **** Build of configuration gcc-debug for project veins ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/src'
+MSGC: veins/base/messages/AirFrame.msg
+MSGC: veins/base/messages/BorderMsg.msg
+MSGC: veins/base/messages/ChannelSenseRequest.msg
+MSGC: veins/base/messages/MacPkt.msg
+MSGC: veins/modules/messages/AirFrame11p.msg
+MSGC: veins/modules/messages/BasicSafetyMessage.msg
+MSGC: veins/modules/messages/Mac80211Pkt.msg
+MSGC: veins/modules/messages/PhyControlMessage.msg
+MSGC: veins/modules/messages/WaveServiceAdvertisement.msg
+MSGC: veins/modules/messages/WaveShortMessage.msg
+veins/base/connectionManager/BaseConnectionManager.cc
+veins/base/connectionManager/ChannelAccess.cc
+veins/base/connectionManager/ConnectionManager.cc
+veins/base/connectionManager/NicEntryDebug.cc
+veins/base/connectionManager/NicEntryDirect.cc
+veins/base/modules/BaseApplLayer.cc
+veins/base/modules/BaseBattery.cc
+veins/base/modules/BaseLayer.cc
+veins/base/modules/BaseMacLayer.cc
+veins/base/modules/BaseMobility.cc
+veins/base/modules/BaseModule.cc
+veins/base/modules/BaseWorldUtility.cc
+veins/base/modules/BatteryAccess.cc
+veins/base/phyLayer/Antenna.cc
+veins/base/phyLayer/BaseDecider.cc
+veins/base/phyLayer/BasePhyLayer.cc
+veins/base/phyLayer/ChannelInfo.cc
+veins/base/phyLayer/ChannelState.cc
+veins/base/phyLayer/Decider.cc
+veins/base/phyLayer/MappingBase.cc
+veins/base/phyLayer/MappingUtils.cc
+veins/base/phyLayer/PhyUtils.cc
+veins/base/phyLayer/Signal.cc
+veins/base/utils/asserts.cc
+veins/base/utils/Coord.cc
+veins/base/utils/NetwToMacControlInfo.cc
+veins/base/utils/SimpleAddress.cc
+veins/base/utils/winsupport.cc
+veins/modules/analogueModel/BreakpointPathlossModel.cc
+veins/modules/analogueModel/JakesFading.cc
+veins/modules/analogueModel/LogNormalShadowing.cc
+veins/modules/analogueModel/NakagamiFading.cc
+veins/modules/analogueModel/PERModel.cc
+veins/modules/analogueModel/SimpleObstacleShadowing.cc
+veins/modules/analogueModel/SimplePathlossModel.cc
+veins/modules/analogueModel/TwoRayInterferenceModel.cc
+veins/modules/application/ieee80211p/BaseWaveApplLayer.cc
+veins/modules/application/traci/MyVeinsApp.cc
+veins/modules/application/traci/TraCIDemo11p.cc
+veins/modules/application/traci/TraCIDemoRSU11p.cc
+veins/modules/application/traci/TraCITestApp.cc
+veins/modules/mac/ieee80211p/Mac1609_4.cc
+veins/modules/mobility/LinearMobility.cc
+veins/modules/mobility/traci/TraCIBuffer.cc
+veins/modules/mobility/traci/TraCIColor.cc
+veins/modules/mobility/traci/TraCICommandInterface.cc
+veins/modules/mobility/traci/TraCIConnection.cc
+veins/modules/mobility/traci/TraCILauncher.cc
+veins/modules/mobility/traci/TraCIMobility.cc
+veins/modules/mobility/traci/TraCIScenarioManager.cc
+veins/modules/mobility/traci/TraCIScenarioManagerForker.cc
+veins/modules/mobility/traci/TraCIScenarioManagerLaunchd.cc
+veins/modules/mobility/traci/TraCIScreenRecorder.cc
+veins/modules/obstacle/Obstacle.cc
+veins/modules/obstacle/ObstacleControl.cc
+veins/modules/phy/Decider80211p.cc
+veins/modules/phy/NistErrorRate.cc
+veins/modules/phy/PhyLayer80211p.cc
+veins/modules/phy/SampledAntenna1D.cc
+veins/modules/phy/SNRThresholdDecider.cc
+veins/modules/world/annotations/AnnotationDummy.cc
+veins/modules/world/annotations/AnnotationManager.cc
+veins/base/messages/AirFrame_m.cc
+veins/base/messages/BorderMsg_m.cc
+veins/base/messages/ChannelSenseRequest_m.cc
+veins/base/messages/MacPkt_m.cc
+veins/modules/messages/AirFrame11p_m.cc
+veins/modules/messages/BasicSafetyMessage_m.cc
+veins/modules/messages/Mac80211Pkt_m.cc
+veins/modules/messages/PhyControlMessage_m.cc
+veins/modules/messages/WaveServiceAdvertisement_m.cc
+veins/modules/messages/WaveShortMessage_m.cc
+Creating shared library: ../out/gcc-debug/src/libveins.so
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/src'
+14:17:13 **** Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+veins_inet/VeinsInetManager.cc
+In file included from veins_inet/VeinsInetManager.cc:23:0:
+./veins_inet/VeinsInetMobility.h:29:38: fatal error: inet/common/ModuleAccess.h: Arquivo ou diretório não encontrado
+Makefile:96: recipe for target '../out/gcc-debug/src/veins_inet/VeinsInetManager.o' failed
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+Makefile:12: recipe for target 'all' failed
+compilation terminated.
+make[1]: *** [../out/gcc-debug/src/veins_inet/VeinsInetManager.o] Error 1
+make: *** [all] Error 2
+14:28:44 **** Incremental Build of configuration gcc-debug for project veins ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/src'
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/src'
+14:28:50 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+veins_inet/VeinsInetManager.cc
+In file included from veins_inet/VeinsInetManager.cc:23:0:
+./veins_inet/VeinsInetMobility.h:29:38: fatal error: inet/common/ModuleAccess.h: Arquivo ou diretório não encontrado
+Makefile:96: recipe for target '../out/gcc-debug/src/veins_inet/VeinsInetManager.o' failed
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+Makefile:12: recipe for target 'all' failed
+compilation terminated.
+make[1]: *** [../out/gcc-debug/src/veins_inet/VeinsInetManager.o] Error 1
+make: *** [all] Error 2
+14:33:30 **** Incremental Build of configuration gcc-debug for project veins ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/src'
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/src'
+14:33:32 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+veins_inet/VeinsInetManager.cc
+In file included from veins_inet/VeinsInetManager.cc:23:0:
+./veins_inet/VeinsInetMobility.h:29:38: fatal error: inet/common/ModuleAccess.h: Arquivo ou diretório não encontrado
+compilation terminated.
+Makefile:96: recipe for target '../out/gcc-debug/src/veins_inet/VeinsInetManager.o' failed
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+Makefile:12: recipe for target 'all' failed
+make[1]: *** [../out/gcc-debug/src/veins_inet/VeinsInetManager.o] Error 1
+make: *** [all] Error 2
+14:47:10 **** Build of configuration gcc-debug for project veins ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/src'
+Creating shared library: ../out/gcc-debug/src/libveins.so
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/src'
+14:47:30 **** Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+veins_inet/VeinsInetManager.cc
+In file included from veins_inet/VeinsInetManager.cc:23:0:
+./veins_inet/VeinsInetMobility.h:29:38: fatal error: inet/common/ModuleAccess.h: Arquivo ou diretório não encontrado
+compilation terminated.
+make[1]: *** [../out/gcc-debug/src/veins_inet/VeinsInetManager.o] Error 1
+Makefile:96: recipe for target '../out/gcc-debug/src/veins_inet/VeinsInetManager.o' failed
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+Makefile:12: recipe for target 'all' failed
+make: *** [all] Error 2
+14:57:44 **** Incremental Build of configuration gcc-debug for project veins ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/src'
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/src'
+14:57:48 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+veins_inet/VeinsInetManager.cc
+In file included from veins_inet/VeinsInetManager.cc:23:0:
+./veins_inet/VeinsInetMobility.h:29:38: fatal error: inet/common/ModuleAccess.h: Arquivo ou diretório não encontrado
+compilation terminated.
+make[1]: *** [../out/gcc-debug/src/veins_inet/VeinsInetManager.o] Error 1
+Makefile:96: recipe for target '../out/gcc-debug/src/veins_inet/VeinsInetManager.o' failed
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+Makefile:12: recipe for target 'all' failed
+make: *** [all] Error 2
+15:12:20 **** Build of configuration gcc-debug for project veins ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/src'
+Creating shared library: ../out/gcc-debug/src/libveins.so
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/src'
+15:12:34 **** Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+veins_inet/VeinsInetManager.cc
+In file included from veins_inet/VeinsInetManager.cc:23:0:
+./veins_inet/VeinsInetMobility.h:29:38: fatal error: inet/common/ModuleAccess.h: Arquivo ou diretório não encontrado
+Makefile:96: recipe for target '../out/gcc-debug/src/veins_inet/VeinsInetManager.o' failed
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+Makefile:12: recipe for target 'all' failed
+compilation terminated.
+make[1]: *** [../out/gcc-debug/src/veins_inet/VeinsInetManager.o] Error 1
+make: *** [all] Error 2

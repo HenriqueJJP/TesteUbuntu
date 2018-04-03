@@ -1,0 +1,15 @@
+15:12:34 **** Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Entering directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+veins_inet/VeinsInetManager.cc
+In file included from veins_inet/VeinsInetManager.cc:23:0:
+./veins_inet/VeinsInetMobility.h:29:38: fatal error: inet/common/ModuleAccess.h: Arquivo ou diretório não encontrado
+Makefile:96: recipe for target '../out/gcc-debug/src/veins_inet/VeinsInetManager.o' failed
+make[1]: Leaving directory '/home/junior/Veins/veins-veins-4.6/subprojects/veins_inet/src'
+Makefile:12: recipe for target 'all' failed
+compilation terminated.
+make[1]: *** [../out/gcc-debug/src/veins_inet/VeinsInetManager.o] Error 1
+make: *** [all] Error 2
+
+15:12:37 Build Finished (took 2s.718ms)
+
